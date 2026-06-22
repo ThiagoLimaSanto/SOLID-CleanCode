@@ -12,7 +12,6 @@ datasource db {
   provider = "sqlite"
 }
 
-
 model Product {
   id        String  @id
   name      String

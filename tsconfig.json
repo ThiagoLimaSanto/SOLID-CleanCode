@@ -6,7 +6,9 @@
     //"outDir": "./src",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": false,
     "target": "esnext",
     "types": [
       "node"
@@ -39,7 +41,8 @@
     "skipLibCheck": true,
   },
   "include": [
-    "src/**/*", "prisma.config.ts"
+    "src/**/*",
+    "prisma.config.ts"
   ],
   "exclude": [
     "node_modules"
